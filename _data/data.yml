@@ -1,7 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -9,22 +5,15 @@ sidebar:
     # Profile information
     name: Jhonyfer Angarita Moreno
     tagline: Mechatronic Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png
 
     # Sidebar links
     email: jhonyferangarita@gmail.com
-    #website: blog.webjeda.com #do not add http://
     linkedin: jhonyfer-angarita-moreno-173a15166
-    #xing: alandoe
     github: Viejony
-    #telegram: # add your nickname without '@' sign
     gitlab: Viejony
-    #bitbucket:
     twitter: '@viejony'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    #pdf: http://www.africau.edu/images/default/sample.pdf
+    youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
 
     languages:
       - idiom: English
@@ -38,91 +27,98 @@ sidebar:
       - item: Robotics
         link:
 
-      - item: DIY Projects
-        link:
-
       - item: Software Development
         link:
 
-      - item: Cooking
+      - item: Automatization
+        link:
+
+      - item: DIY Projects
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Mechatronic Engineer with software development skills.
+      Mechatronic Engineer with software development skills and knowledge for 
+      design, build and execute engineering solutions through usage of multiple 
+      technologies that requires integration. High adaptability, curious, 
+      creative and dynamic personality.
 
 education:
     - degree: Mechatronic Engineer
       university: National University of Colombia
       time: 2014 - 2020
       details: |
-        Describe your study here
         Relevant projects:
-          - (2021-1) Develop of a Web Aplication in Angular for remote control for SDV robots - DIMA-UN
-          - (2020-2) Research assistant: DIMA-UN 
-          - (2020-2) Grade project: Design of electronics of a mobile robot chasis
+          - (2021-1) Develop of a Web Aplication in Angular for remote control for SDV robots - DIMA-UN (Research Group)
+          - (2020-2) Research assistant: DIMA-UN (Research Group from UNAL)
+          - (2020-2) Grade project: Design of electronics of a mobile robot chasis (SDV).
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research Assistant
+      time: 2020-1 2021-1
+      company: National University of Colombia - DIMA-UN
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
+        As a thesis student, I carried out work related to the development of 
+        software for mobile robots, Linux server management, robot simulations 
+        in realistic environments and tutorials for students of manufacturing 
+        process automation.
           
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Projects published as Open Source, academic projects and 
+      personal/professional projects.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: SDV-UN-Web-App
+        link: "https://github.com/Viejony/SDV-UN-Web-App"
+        tagline: "A single Web Application intended for control a single mobile 
+        robot in ExFabLab over local network, using Rosbridge as robot server, 
+        mySQL and Apache as webhosting service and Robot Web Tools as client 
+        library"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: phantomx_pincher
+        link: "https://github.com/Viejony/phantomx_pincher"
+        tagline: "A set of packages used in Gazebo (robot simulation software) 
+        intended to simulate a PhantomX Pincher (manipulator arm robot) that can 
+        be monitored with MATLAB and controlled with a GUI or a Joystick."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: SDV-Map-Viewer
+        link: ""
+        tagline: "Single Web Aplication designed to be used with multiple mobile 
+        robots that uses ROS in ExFabLab as a part of PRIA software packages. 
+        Builded in Angular Framework"
 
 
 skills:
     title: Skills &amp; Proficiency
 
+    softwareset:
+      - name: Python
+      - name: ROS
+      - name: Git
+      - name: Nodejs
+      - name: Typescript
+      - name: Angular
+      - name: VSCode
+      - name: Microsoft Office Suite
+      - name: Autodesk Inventor
+      - name: Firebase/Firestore
+
+    operativesystemsset:
+      - name: Windows
+      - name: Linux
+
     toolset:
       - name: Python
         level: 90%
-
       - name: Javascript & Typescript
         level: 80%
-
       - name: Angular
         level: 70%
-
       - name: HTML5 & CSS
         level: 60%
-
       - name: C and Cpp
         level: 80%
+      - name: Autodesk Inventor
+        level: 75%

@@ -10,7 +10,27 @@
     {{ skills.title }}
   </h2>
 
+  <div class="softwareset">
+    <h3 class="title">Software Tools</h3>
+    {% for soft in skills.softwareset %}
+    <div class="item">
+      <span>{{ soft.name }}</span>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
+
+  <div class="operativesystemsset">
+    <h3 class="title">Operative Systems</h3>
+    {% for soft in skills.operativesystemsset %}
+    <div class="item">
+      <span>{{ soft.name }}</span>
+    </div><!--//item-->
+    {% endfor %}
+  </div>
+
   <div class="skillset">
+
+    <h3 class="title">Proficiency</h3>
 
     {% for skill in skills.toolset %}
     <div class="item">
