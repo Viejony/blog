@@ -14,7 +14,7 @@ sidebar:
     # Sidebar links
     email: jhonyferangarita@gmail.com
     #website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
+    linkedin: jhonyfer-angarita-moreno-173a15166
     #xing: alandoe
     github: Viejony
     #telegram: # add your nickname without '@' sign
@@ -34,7 +34,14 @@ sidebar:
         level: Native
 
     interests:
+
+      - item: Robotics
+        link:
+
       - item: DIY Projects
+        link:
+
+      - item: Software Development
         link:
 
       - item: Cooking
@@ -43,30 +50,19 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Mechatronic Engineer with sfotware development skills. 
+      Mechatronic Engineer with software development skills.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Mechatronic Engineer
+      university: National University of Colombia
+      time: 2014 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Describe your study here
+        Relevant projects:
+          - (2021-1) Develop of a Web Aplication in Angular for remote control for SDV robots - DIMA-UN
+          - (2020-2) Research assistant: DIMA-UN 
+          - (2020-2) Grade project: Design of electronics of a mobile robot chasis
+
 experiences:
     - role: Lead Developer
       time: 2015 - Present
@@ -83,28 +79,7 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          
 projects:
     title: Projects
     intro: >
