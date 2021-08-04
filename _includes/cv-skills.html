@@ -1,4 +1,4 @@
-{% assign skills = site.data.data.skills %}
+{% assign skills = site.data.cv.[page.lang].skills %}
 {% if skills %}
 <section class="skills-section section">
 
@@ -10,17 +10,18 @@
     {{ skills.title }}
   </h2>
 
-  <div class="softwareset">
-    <h3 class="title">Software Tools</h3>
+  <div class="cv-softwareset">
+    <h3 class="title">{{ site.data.translations['softwareTools'][page.lang] }}</h3>
     {% for soft in skills.softwareset %}
     <div class="item">
-      <span>{{ soft.name }}</span>
+      <span class="level-title">{{ soft.category }}: </span>
+      <span>{{ soft.tagline }}</span>
     </div><!--//item-->
     {% endfor %}
   </div>
 
-  <div class="operativesystemsset">
-    <h3 class="title">Operative Systems</h3>
+  <div class="cv-operativesystemsset">
+    <h3 class="title">{{ site.data.translations['operativeSystems'][page.lang] }}</h3>
     {% for soft in skills.operativesystemsset %}
     <div class="item">
       <span>{{ soft.name }}</span>
@@ -28,20 +29,17 @@
     {% endfor %}
   </div>
 
-  <div class="skillset">
+  <div class="cv-skillset">
 
-    <h3 class="title">Proficiency</h3>
+    <h3 class="title">{{ site.data.translations['proficiency'][page.lang] }}</h3>
 
     {% for skill in skills.toolset %}
     <div class="item">
-
       <h3 class="level-title">{{ skill.name }}</h3>
-
       <div class="level-bar">
         <div class="level-bar-inner" data-level="{{ skill.level }}">
         </div>
       </div><!--//level-bar-->
-
     </div><!--//item-->
     {% endfor %}
 

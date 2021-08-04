@@ -27,7 +27,7 @@
 
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">Linkedin Profile</a>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ site.data.translations['linkedinProfile'][page.lang] }}</a>
     </li>
     {% endif %}
 
@@ -57,7 +57,7 @@
 
     {% if sidebar.twitter %}
     <li class="twitter"><i class="fab fa-twitter"></i>
-      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">Twitter User</a>
+      <a href="https://twitter.com/{{ sidebar.twitter }}" target="_blank">{{ site.data.translations['twitterProfile'][page.lang] }}</a>
     </li>
     {% endif %}
 
@@ -87,7 +87,7 @@
 
     {% if sidebar.youtube %}
     <li class="youtube"><i class="fab fa-youtube"></i>
-      <a href="https://youtube.com/channel/{{ sidebar.youtube }}" target="_blank">Youtube Channel</a>
+      <a href="https://youtube.com/channel/{{ sidebar.youtube }}" target="_blank">{{ site.data.translations['youtubeChannel'][page.lang] }}</a>
     </li>
     {% endif %}
 

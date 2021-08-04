@@ -1,0 +1,42 @@
+selectLang:
+  en: "Select your language"
+  es: "Selecciona tu idioma"
+relatedPosts:
+  en: "Related Posts"
+  es: "Artículos relacionados"
+differentLanguage:
+  en: "Read this page in a different language"
+  es: "Lea esta página en un idioma diferente"
+viewIn:
+  en: "View in"
+  es: "Ver en"
+youtubeChannel:
+  en: "Youtube Channel"
+  es: "Canal de Youtube"
+twitterProfile:
+  en: "Twitter Profile"
+  es: "Perfil en Twitter"
+linkedinProfile:
+  en: "Linkedin Profile"
+  es: "Perfil en Linkedin"
+education:
+  en: "Education"
+  es: "Educación"
+languages:
+  en: "Languages"
+  es: "Idiomas"
+interests:
+  en: "Interests"
+  es: "Intereses"
+experiences:
+  en: "Experiences"
+  es: "Experiencia"
+softwareTools:
+  en: "Software Tools"
+  es: "Herramientas de software"
+operativeSystems:
+  en: "Operative Systems"
+  es: "Sistemas Operativos"
+proficiency:
+  en: "Proficiency"
+  es: "Proeficiencia"

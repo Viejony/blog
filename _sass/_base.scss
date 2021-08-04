@@ -33,7 +33,7 @@ p {
     line-height: 1.5;
 }
 
-.wrapper {
+.cv-wrapper {
     background: $theme-color;
     max-width: 1000px;
     margin: 0 auto;
@@ -41,7 +41,7 @@ p {
     @include box-shadow(0px 2px 4px rgba(0, 0, 0, 0.1));
 }
 
-.sidebar-wrapper {
+.cv-sidebar-wrapper {
     background: $theme-color;
     position: absolute;
     right: 0;
@@ -131,6 +131,7 @@ p {
             color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;
+            position: static;
         }
     }
     .languages-container {
@@ -160,7 +161,7 @@ p {
     }
 }
 
-.main-wrapper {
+.cv-main-wrapper {
     background: #fff;
     padding: 60px;
     padding-right: 340px;
@@ -188,8 +189,7 @@ p {
         overflow: hidden;
         margin-bottom: 2px;
     }
-    .job-title,
-    .degree {
+    .job-title {
         color: $text-color;
         font-size: 16px;
         margin-top: 0;
@@ -245,7 +245,7 @@ p {
     }
 }
 
-.skillset {
+.cv-skillset {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
@@ -270,7 +270,25 @@ p {
     }
 }
 
-.softwareset {
+.cv-softwareset {
+    .item {
+        margin-bottom: 15px;
+        overflow: hidden;
+    }
+    .title {
+        font-size: 18px;
+        margin-top: 22px;
+        margin-bottom: 18px;
+    }
+    .level-title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+}
+
+.cv-operativesystemsset {
     .item {
         margin-bottom: 15px;
         overflow: hidden;
@@ -287,24 +305,7 @@ p {
     }
 }
 
-.operativesystemsset {
-    .item {
-        margin-bottom: 15px;
-        overflow: hidden;
-    }
-    .title {
-        font-size: 18px;
-        margin-top: 22px;
-        margin-bottom: 18px;
-    }
-    .level-title {
-        font-size: 15px;
-        margin-top: 0;
-        margin-bottom: 0px;
-    }
-}
-
-.footer {
+.cv-footer {
     padding-top: 30px;
     .copyright {
         line-height: 1.6;

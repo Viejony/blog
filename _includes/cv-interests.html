@@ -1,9 +1,9 @@
-{% assign interests = site.data.data.sidebar.interests %}
+{% assign interests = site.data.cv.[page.lang].sidebar.interests %}
 {% if interests %}
 <div class="interests-container container-block">
 
   <h2 class="container-block-title">
-    Interests
+    {{ site.data.translations['interests'][page.lang] }}
   </h2>
 
   <ul class="list-unstyled interests-list">

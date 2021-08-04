@@ -1,0 +1,36 @@
+---
+#Add "layout: compress" here to compress the html code
+---
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+{% include head.html %}
+
+<body>
+    <div class="cv-wrapper">
+        {% include cv-sidebar.html %}
+        <div class="cv-main-wrapper">
+            {% include cv-career-profile.html %}
+
+            {% assign edu = site.data.cv.[page.lang].sidebar.education %}
+            {% unless edu %}
+                {% include cv-education.html %}
+            {% endunless %}
+
+            {% include cv-experiences.html %}
+
+            {% include cv-projects.html %}
+
+            {% include cv-publications.html %}
+
+            {% include cv-skills.html %}
+        </div>
+    </div>
+    {% include cv-footer.html %}
+    {% include cv-scripts.html %}
+</body>
+
+</html>
