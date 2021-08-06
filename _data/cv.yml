@@ -18,7 +18,7 @@ en:
       gitlab: Viejony
       twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
-      blog: https://viejony.github.io/blog/en/
+      website: viejony.github.io/blog/en/
 
       languages:
         - idiom: English
@@ -71,14 +71,14 @@ en:
         personal/professional projects.
       assignments:
         - title: SDV-UN-Web-App
-          link: "https://github.com/Viejony/SDV-UN-Web-App"
+          link: ""
           tagline: "A single Web Application intended for control a single mobile 
           robot in ExFabLab over local network, using Rosbridge as robot server, 
           mySQL and Apache as webhosting service and Robot Web Tools as client 
           library"
 
         - title: phantomx_pincher
-          link: "https://github.com/Viejony/phantomx_pincher"
+          link: ""
           tagline: "A set of packages used in Gazebo (robot simulation software) 
           intended to simulate a PhantomX Pincher (manipulator arm robot) that can 
           be monitored with MATLAB and controlled with a GUI or a Joystick."
@@ -137,7 +137,7 @@ es:
       gitlab: Viejony
       twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
-      blog: https://viejony.github.io/blog/es/
+      website: viejony.github.io/blog/es/
 
       languages:
         - idiom: Inglés
@@ -191,7 +191,7 @@ es:
         proyectos personales y profesionales. 
       assignments:
         - title: SDV-UN-Web-App
-          link: "https://github.com/Viejony/SDV-UN-Web-App"
+          link: "https://viejony.github.io/blog/es/2021/08/01/sdv-un-web-app"
           tagline: "Una aplicación web sencilla pensada para el control de un único 
           robot móvil dentro del LabFabEx por medio de la red local, usando el 
           software Rosbridge como servidor en el robot, mySQL y Apache para el 
@@ -199,7 +199,7 @@ es:
           para la interfaz del lado del cliente."
 
         - title: phantomx_pincher
-          link: "https://github.com/Viejony/phantomx_pincher"
+          link: "https://viejony.github.io/blog/es/2021/08/02/phatomx"
           tagline: "Un conjunto de paquetes para la pltaforma de robótica ROS, 
           usados en Gazebo (software de simulación de robots), pensados para 
           emular un robot manipulador PhantomX Pincher. Puede ser 
@@ -207,7 +207,7 @@ es:
           interfaz gráfica o por medio de un Joystick"
 
         - title: SDV-Map-Viewer
-          link: ""
+          link: "https://viejony.github.io/blog/es/2021/08/03/sdv-map-viewer"
           tagline: "Aplicación Web de página única desarrolla para ser usada con 
           múltiples robots móviles basados en ROS, como parte de los paquetes de
           software de la plataforma PRIA. Construida en la plataforma Angular."
