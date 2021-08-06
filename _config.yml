@@ -1,4 +1,5 @@
-#Update all the sections by editing the data.yml file inside _data folder.
+# Update all the CV sections by editing the cv.yml file inside _data folder.
+# Update all the post sections by adding/deleting files in *en* and *es* folder.
 
 # Site Settings
 title: Jhonyfer Angarita
@@ -27,5 +28,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: localhost
 safe: false

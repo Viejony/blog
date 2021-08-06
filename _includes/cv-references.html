@@ -1,0 +1,24 @@
+{% assign references = site.data.cv.[page.lang].references %}
+{% if references %}
+
+<div class="references-container container-block">
+
+  <h2 class="container-block-title">
+    {{ site.data.translations['references'][page.lang] }}
+  </h2>
+
+  {% for ref in references %}
+  <div class="item">
+    <h4 class="refname">{{ ref.name }}</h4>
+    <h5 class="job">{{ ref.job }}</h5>
+    <h5 class="email">{{ ref.email }}</h5>
+    <h5 class="phone">{{ ref.phone }}</h5>
+    <h5 class="location">{{ ref.location }}</h5>
+  </div>
+  <!--//item-->
+  {% endfor %}
+
+</div>
+{% endif %}
+
+

@@ -1,3 +1,5 @@
+################################################################################
+# English version
 en:
   sidebar:
       about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
@@ -7,6 +9,7 @@ en:
       name: Jhonyfer Angarita Moreno
       tagline: Mechatronic Engineer
       avatar: profile.png
+      birth_country: Colombia
 
       # Sidebar links
       email: jhonyferangarita@gmail.com
@@ -15,6 +18,7 @@ en:
       gitlab: Viejony
       twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
+      blog: https://viejony.github.io/blog/en/
 
       languages:
         - idiom: English
@@ -114,23 +118,26 @@ en:
         - name: Autodesk Inventor
           level: 75%
 
+################################################################################
+# Versión en Español
 es:
   sidebar:
       about: True
       education: False
 
-      # Profile information
       name: Jhonyfer Angarita Moreno
       tagline: Ingeniero Mecatrónico
       avatar: profile.png
+      birth_country: Colombia
 
-      # Sidebar links
       email: jhonyferangarita@gmail.com
+      phone: +57 302 3614420
       linkedin: jhonyfer-angarita-moreno
       github: Viejony
       gitlab: Viejony
       twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
+      blog: https://viejony.github.io/blog/es/
 
       languages:
         - idiom: Inglés
@@ -151,10 +158,11 @@ es:
   career-profile:
       title: Perfil
       summary: |
-        Ingeniero mecatrónico con capacidades de desarrollo de software y 
-        conocimiento para el diseño, construcción y ejecución de soluciones de 
-        ingeniería que requieran integración. Alta adaptabilidad, curiosidad,
-        creatividad y dinamismo.
+        Ingeniero mecatrónico  con conocimientos para el diseño, construcción y 
+        ejecución de soluciones de ingeniería que requieran de un alto nivel de 
+        integración. Conocimientos en servicios en línea, industria 4.0, uso de 
+        herramientas libres (FOSS), electrónica, manufactura y programación.
+        Alta capacidad de adaptabilidad, curiosidad, creatividad y dinamismo.
 
   education:
       - degree: Ingeniero Mecatrónico
@@ -162,47 +170,66 @@ es:
         time: 2014 - 2020
         details: |
           Proyectos relevantes:
-            - (2021-1) Desarrollo de una aplicación Web en Angular para el control remoto de robots móviles SDV. Grupo de investigación DIMA-UN.
+            - (2021-1) Desarrollo de una aplicación Web con la plataforma Angular para el control remoto de robots móviles SDV. Grupo de investigación DIMA-UN.
             - (2020-2) Asistente investigador: Grupo de investigación DIMA-UN.
             - (2020-2) Trabajo de grado: Diseño de la parte electrónica del robot móvil SDVUN4.
 
   experiences:
-      - role: Research Assistant
+      - role: Asistentente de Investigación
         time: 2020-1 2021-1
-        company: National University of Colombia - DIMA-UN
+        company: Universidad Nacional de Colombia. Grupo DIMA-UN
         details: |
-          As a thesis student, I carried out work related to the development of 
-          software for mobile robots, Linux server management, robot simulations 
-          in realistic environments and tutorials for students of manufacturing 
-          process automation.
+          Tareas relacionadas con el desarrollo de software para los robots 
+          móviles del LabFabEx. Administración de servidores Linux, desarrollo
+          de simulaciones de robots en entornos realistas y tutorías para 
+          estudiantes de Automatización de Procesos de Manufactura
             
   projects:
       title: Proyectos
       intro: >
-        Projects published as Open Source, academic projects and 
-        personal/professional projects.
+        Proyectos publicados como Open Source, proyectos académicos relevantes y
+        proyectos personales y profesionales. 
       assignments:
         - title: SDV-UN-Web-App
           link: "https://github.com/Viejony/SDV-UN-Web-App"
-          tagline: "A single Web Application intended for control a single mobile 
-          robot in ExFabLab over local network, using Rosbridge as robot server, 
-          mySQL and Apache as webhosting service and Robot Web Tools as client 
-          library"
+          tagline: "Una aplicación web sencilla pensada para el control de un único 
+          robot móvil dentro del LabFabEx por medio de la red local, usando el 
+          software Rosbridge como servidor en el robot, mySQL y Apache para el 
+          Webhosting y gestión de ususarios y bibliotecas de Robot Web Tools 
+          para la interfaz del lado del cliente."
 
         - title: phantomx_pincher
           link: "https://github.com/Viejony/phantomx_pincher"
-          tagline: "A set of packages used in Gazebo (robot simulation software) 
-          intended to simulate a PhantomX Pincher (manipulator arm robot) that can 
-          be monitored with MATLAB and controlled with a GUI or a Joystick."
+          tagline: "Un conjunto de paquetes para la pltaforma de robótica ROS, 
+          usados en Gazebo (software de simulación de robots), pensados para 
+          emular un robot manipulador PhantomX Pincher. Puede ser 
+          monitorizado usando MATLAB y puede ser controlado por medio de una 
+          interfaz gráfica o por medio de un Joystick"
 
         - title: SDV-Map-Viewer
           link: ""
-          tagline: "Single Web Aplication designed to be used with multiple mobile 
-          robots that uses ROS in ExFabLab as a part of PRIA software packages. 
-          Builded in Angular Framework"
+          tagline: "Aplicación Web de página única desarrolla para ser usada con 
+          múltiples robots móviles basados en ROS, como parte de los paquetes de
+          software de la plataforma PRIA. Construida en la plataforma Angular."
+
+  references:
+    - name: "Leidy Johana Angarita Moreno"
+      job: Contadora Pública
+      email: leyi.h123@gmail.com
+      phone: 302 3800686
+      location: Bogotá D.C.
+    - name: "David Felipe Tosse Muñoz"
+      job: Ingeniero Electrónico
+      email: dftossem@gmail.com
+      phone: +57 300 4212645
+      location: Bogotá D.C.
+    - name: "Ernesto Cordoba Nieto"
+      job: Ingeniero Mecánico
+      email: ecordoban@unal.edu.co
+      location: Bogotá D.C.
 
   skills:
-      title: Habilidades y Proeficiencia
+      title: Habilidades y Competencias
 
       softwareset:
         - category: Lenguajes de programación

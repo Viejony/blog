@@ -4,6 +4,9 @@ selectLang:
 relatedPosts:
   en: "Related Posts"
   es: "Artículos relacionados"
+recentPosts:
+  en: "Recent Posts"
+  es: "Artículos recientes"
 differentLanguage:
   en: "Read this page in a different language"
   es: "Lea esta página en un idioma diferente"
@@ -39,4 +42,10 @@ operativeSystems:
   es: "Sistemas Operativos"
 proficiency:
   en: "Proficiency"
-  es: "Proeficiencia"
+  es: "Compentencias"
+allPosts:
+  en: "All Posts"
+  es: "Todos los artículos"
+references:
+  en: "References"
+  es: "Referencias"

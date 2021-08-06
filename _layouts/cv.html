@@ -7,7 +7,7 @@
 <!--[if !IE]><!-->
 <html lang="en">
 <!--<![endif]-->
-{% include head.html %}
+{% include cv-head.html %}
 
 <body>
     <div class="cv-wrapper">
@@ -15,7 +15,7 @@
         <div class="cv-main-wrapper">
             {% include cv-career-profile.html %}
 
-            {% assign edu = site.data.cv.[page.lang].sidebar.education %}
+            {% assign edu = site.data.cv[page.lang].sidebar.education %}
             {% unless edu %}
                 {% include cv-education.html %}
             {% endunless %}
