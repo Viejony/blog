@@ -21,7 +21,11 @@
 
       <span class="project-title">
         {% if project.link %}
+        {% if project.localpost %}
+        <a href="{{ site.baseurl }}/{{ page.lang }}/{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% else %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
+        {% endif %}
         {% else %}
         {{ project.title }}
         {% endif %}

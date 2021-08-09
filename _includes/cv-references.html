@@ -11,8 +11,10 @@
   <div class="item">
     <h4 class="refname">{{ ref.name }}</h4>
     <h5 class="job">{{ ref.job }}</h5>
-    <h5 class="email">{{ ref.email }}</h5>
+    <a class="email" href="mailto:{{ ref.email }}">{{ ref.email }}</a>
+    {% if sidebar.phones %}
     <h5 class="phone">{{ ref.phone }}</h5>
+    {% endif %}
     <h5 class="location">{{ ref.location }}</h5>
   </div>
   <!--//item-->

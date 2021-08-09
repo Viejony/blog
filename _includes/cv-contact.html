@@ -7,10 +7,12 @@
     </li>
     {% endif %}
 
+    {% if sidebar.phones %}
     {% if sidebar.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
       <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
     </li>
+    {% endif %}
     {% endif %}
 
     {% if sidebar.telegram %}

@@ -2,7 +2,7 @@
 title: CV
 layout: cv
 lang: en
-sidebar_link: 
+sidebar_link: False
 ---
 
 

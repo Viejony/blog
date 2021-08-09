@@ -2,8 +2,8 @@
 # English version
 en:
   sidebar:
-      about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
       education: False # set to False if you want education in main section instead of in sidebar
+      phones: False
 
       # Profile information
       name: Jhonyfer Angarita Moreno
@@ -71,20 +71,20 @@ en:
         personal/professional projects.
       assignments:
         - title: SDV-UN-Web-App
-          link: ""
+          link: "2021/08/02/sdv-un-web-app.html"
           tagline: "A single Web Application intended for control a single mobile 
           robot in ExFabLab over local network, using Rosbridge as robot server, 
           mySQL and Apache as webhosting service and Robot Web Tools as client 
           library"
 
         - title: phantomx_pincher
-          link: ""
+          link: "2021/08/02/phatomx.html"
           tagline: "A set of packages used in Gazebo (robot simulation software) 
           intended to simulate a PhantomX Pincher (manipulator arm robot) that can 
           be monitored with MATLAB and controlled with a GUI or a Joystick."
 
         - title: SDV-Map-Viewer
-          link: ""
+          link: "2021/08/03/sdv-map-viewer.html"
           tagline: "Single Web Aplication designed to be used with multiple mobile 
           robots that uses ROS in ExFabLab as a part of PRIA software packages. 
           Builded in Angular Framework"
@@ -122,8 +122,8 @@ en:
 # Versión en Español
 es:
   sidebar:
-      about: True
       education: False
+      phones: False
 
       name: Jhonyfer Angarita Moreno
       tagline: Ingeniero Mecatrónico
@@ -191,7 +191,8 @@ es:
         proyectos personales y profesionales. 
       assignments:
         - title: SDV-UN-Web-App
-          link: "https://viejony.github.io/blog/es/2021/08/01/sdv-un-web-app"
+          localpost: True
+          link: "2021/08/02/sdv-un-web-app"
           tagline: "Una aplicación web sencilla pensada para el control de un único 
           robot móvil dentro del LabFabEx por medio de la red local, usando el 
           software Rosbridge como servidor en el robot, mySQL y Apache para el 
@@ -199,7 +200,8 @@ es:
           para la interfaz del lado del cliente."
 
         - title: phantomx_pincher
-          link: "https://viejony.github.io/blog/es/2021/08/02/phatomx"
+          localpost: True
+          link: "2021/08/02/phatomx"
           tagline: "Un conjunto de paquetes para la pltaforma de robótica ROS, 
           usados en Gazebo (software de simulación de robots), pensados para 
           emular un robot manipulador PhantomX Pincher. Puede ser 
@@ -207,7 +209,8 @@ es:
           interfaz gráfica o por medio de un Joystick"
 
         - title: SDV-Map-Viewer
-          link: "https://viejony.github.io/blog/es/2021/08/03/sdv-map-viewer"
+          localpost: True
+          link: "2021/08/03/sdv-map-viewer"
           tagline: "Aplicación Web de página única desarrolla para ser usada con 
           múltiples robots móviles basados en ROS, como parte de los paquetes de
           software de la plataforma PRIA. Construida en la plataforma Angular."
@@ -215,8 +218,8 @@ es:
   references:
     - name: "Leidy Johana Angarita Moreno"
       job: Contadora Pública
-      email: leyi.h123@gmail.com
-      phone: 302 3800686
+      email: leidyjohanaangaritam@gmail.com
+      phone: +57 302 3800686
       location: Bogotá D.C.
     - name: "David Felipe Tosse Muñoz"
       job: Ingeniero Electrónico
