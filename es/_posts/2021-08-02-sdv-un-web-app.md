@@ -62,5 +62,5 @@ En el siguiente video se observa un ejemplo de uso con los robots *SDV* dentro d
 
 ## Enlaces
 - [Robot Web Tools](http://robotwebtools.org/): Colección de paquetes de software pensados para la construcción de aplicaciones para robots.
-- [Enlace al código fuente](https://github.com/Viejony/SDV-UN-Web-App)
+- [Código fuente en Github](https://github.com/Viejony/SDV-UN-Web-App)
 
