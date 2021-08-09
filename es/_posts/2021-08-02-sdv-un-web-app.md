@@ -26,6 +26,7 @@ Ambas formas de operar a los robots son complejas de usar y requieren de una pre
 
 ## Funcionamiento de la aplicación web
 ![App]({{site.baseurl}}/assets/images/20210802_150000_01.webp)
+
 La aplicación web creada consta de un mapa del laboratorio y paneles laterales que permiten:
 
 - Observar los valores de posición que reporta el robot *SDV*.
@@ -56,10 +57,7 @@ El proyecto también tiene una versión *vanilla*, la cual remueve las caracter�
 
 En el siguiente video se observa un ejemplo de uso con los robots *SDV* dentro del laboratorio *LabFabEx*.
 
-{% include youtube-player.html id = "NwNL5vKip0I" %}
-
-{% include youtube-player.html id = "NwNL5vKip0I" %}
-
+{% include youtube-player.html id="NwNL5vKip0I" %}
 
 
 ## Enlaces

@@ -1,10 +1,4 @@
-<div class="embed-container">
-    <iframe 
-        src="https://www.youtube.com/embed/{{ include.id }}" 
-        width="350" 
-        height="240" 
-        frameborder="0"
-        allow="encrypted-media"
-        allowfullscreen="">
-    </iframe>
-</div>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v={{ include.id }}" target="_blank">
+    <img src="http://img.youtube.com/vi/{{ include.id }}/0.jpg"  
+        border="10" />
+</a>
