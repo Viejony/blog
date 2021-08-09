@@ -14,4 +14,4 @@ Mis hobbys están muy estrechamente relacionados con mi profesión: me gusta lle
 ## Contacto
 - email: jhonyferangarita@gmail.com
 - [Linkedin](https://linkedin.com/in/jhonyfer-angarita-moreno)
-- [Canal de Yotube](https://youtube.com/channel/UC94gA_n8h_ozkjNGkLDpiAw)
+- [Canal de Youtube](https://youtube.com/channel/UC94gA_n8h_ozkjNGkLDpiAw)
