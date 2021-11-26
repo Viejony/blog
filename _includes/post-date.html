@@ -1,0 +1,18 @@
+{% assign m = fdate | date: "%-m" %}
+
+{{ fdate | date: "%d" }}
+{% case m %}
+  {% when '1' %}{{ site.data.translations.['january'][page.lang] }}
+  {% when '2' %}{{ site.data.translations.['february'][page.lang] }}
+  {% when '3' %}{{ site.data.translations.['march'][page.lang] }}
+  {% when '4' %}{{ site.data.translations.['april'][page.lang] }}
+  {% when '5' %}{{ site.data.translations.['may'][page.lang] }}
+  {% when '6' %}{{ site.data.translations.['june'][page.lang] }}
+  {% when '7' %}{{ site.data.translations.['july'][page.lang] }}
+  {% when '8' %}{{ site.data.translations.['august'][page.lang] }}
+  {% when '9' %}{{ site.data.translations.['september'][page.lang] }}
+  {% when '10' %}{{ site.data.translations.['october'][page.lang] }}
+  {% when '11' %}{{ site.data.translations.['november'][page.lang] }}
+  {% when '12' %}{{ site.data.translations.['december'][page.lang] }}
+{% endcase %}
+{{ fdate | date: "%Y" }}

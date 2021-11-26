@@ -52,3 +52,39 @@ references:
 siteDescription:
   en: "A personal blog"
   es: "Un blog personal"
+january:
+  en: "January"
+  es: "Enero"
+february:
+  en: "February"
+  es: "Febrero"
+march:
+  en: "March"
+  es: "Marzo"
+april:
+  en: "April"
+  es: "Abril"
+may:
+  en: "May"
+  es: "Mayo"
+june:
+  en: "June"
+  es: "Junio"
+july:
+  en: "July"
+  es: "Julio"
+august:
+  en: "August"
+  es: "Agosto"
+september:
+  en: "September"
+  es: "Septiembre"
+october:
+  en: "October"
+  es: "Octubre"
+november:
+  en: "November"
+  es: "Noviembre"
+december:
+  en: December
+  es: "Diciembre"

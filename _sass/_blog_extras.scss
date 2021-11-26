@@ -1,0 +1,29 @@
+.embed-container {
+    width   : 80%;
+    position: relative;
+    margin  : auto;
+
+    :hover .overlay {
+        opacity: 1.0;
+    }
+
+    .overlay {
+        opacity         : 0.5;
+        transition      : .3s ease;
+        background-color: transparent;
+    }
+
+    .image {
+        position: relative;
+        margin  : auto;
+    }
+
+    .yicon {
+        top      : 50%;
+        left     : 50%;
+        position : absolute;
+        transform: translate(-50%, -50%);
+        height   : 20%;
+        opacity  : 0.5;
+    }
+}

@@ -4,6 +4,9 @@
             {{ post.title }}
         </a>
     </h2>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">
+        {% assign fdate = post.date %}
+        {% include post-date.html %}
+    </span>
     {{ post.summary }}
 </div>

@@ -6,6 +6,11 @@
   <body class="theme-base-0d">
     {% include sidebar.html %}
     <div class="content container">
+      {% if page.pic-header %}
+      <p>
+        <img src="{{ site.baseurl }}/assets/images/{{ page.pic-header }}">
+      </p>
+      {% endif %}
       {{ content }}
       {% include lang-footer.html %}
     </div>

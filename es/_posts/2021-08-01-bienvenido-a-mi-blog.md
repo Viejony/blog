@@ -5,6 +5,7 @@ lang: es
 lang-ref: welcome-to-my-blog
 summary: En este sitio podrás encontrar mis projectos personales y profesionales
 date: 2021-08-01 10:00 -0500
+pic-header: 20210802_150000_header.jpg
 ---
 
 ¡Bienvenido a mi blog!

@@ -78,13 +78,13 @@ en:
           library"
 
         - title: phantomx_pincher
-          link: "2021/08/02/phatomx.html"
+          link: "2021/08/03/phatomx.html"
           tagline: "A set of packages used in Gazebo (robot simulation software) 
           intended to simulate a PhantomX Pincher (manipulator arm robot) that can 
           be monitored with MATLAB and controlled with a GUI or a Joystick."
 
         - title: SDV-Map-Viewer
-          link: "2021/08/03/sdv-map-viewer.html"
+          link: "2021/08/04/sdv-map-viewer.html"
           tagline: "Single Web Aplication designed to be used with multiple mobile 
           robots that uses ROS in ExFabLab as a part of PRIA software packages. 
           Builded in Angular Framework"
@@ -201,7 +201,7 @@ es:
 
         - title: phantomx_pincher
           localpost: True
-          link: "2021/08/02/phatomx"
+          link: "2021/08/03/phatomx"
           tagline: "Un conjunto de paquetes para la pltaforma de robótica ROS, 
           usados en Gazebo (software de simulación de robots), pensados para 
           emular un robot manipulador PhantomX Pincher. Puede ser 
@@ -210,7 +210,7 @@ es:
 
         - title: SDV-Map-Viewer
           localpost: True
-          link: "2021/08/03/sdv-map-viewer"
+          link: "2021/08/04/sdv-map-viewer"
           tagline: "Aplicación Web de página única desarrolla para ser usada con 
           múltiples robots móviles basados en ROS, como parte de los paquetes de
           software de la plataforma PRIA. Construida en la plataforma Angular."
