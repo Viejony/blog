@@ -1,13 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="posts">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+  <br />
 
-  <body>
-    <div class="container">
-        <div class="lang-select">
-            {{ content }}
-        </div>
-    </div>
-  </body>
-</html>
+  <h2>{{ site.data.translations['recentPosts'][page.lang] }}</h2>
+
+  {% assign posts = site.posts | where:"lang", page.lang %}
+  {% if page.all-posts %}
+    {% for post in posts %}
+      {% include item-post.html %}
+    {% endfor %}
+  {% else %}
+    {% for post in posts limit:2 %}
+      {% include item-post.html %}
+    {% endfor %}
+  {% endif %}
+
+</div>

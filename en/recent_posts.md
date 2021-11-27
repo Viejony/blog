@@ -5,4 +5,5 @@ lang: en
 lang-ref: recent-posts
 sidebar-link: True
 all-posts: False
+index: 2
 ---

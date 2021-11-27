@@ -1,6 +1,7 @@
 ---
-layout: index
-title: Latest Posts
+layout: home
+title: Home
 lang: en
-sidebar_link: False
+sidebar-link: True
+index: 1
 ---

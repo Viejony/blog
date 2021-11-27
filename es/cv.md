@@ -2,7 +2,6 @@
 title: CV
 layout: cv
 lang: es
-sidebar_link: False
+sidebar-link: False
+index: 5
 ---
-
-

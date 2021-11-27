@@ -5,8 +5,6 @@ lang: es
 lang-ref: sdv-un-web-app
 summary: Aplicación Web sencilla, basada en proyectos Open Source para el control de robots móbiles autónomos.
 date: 2021-08-02 15:00 -0500
-video_01: NwNL5vKip0I
-video_02: e3IaDfzTlMg
 ---
 
 Una aplicación Web sencilla, diseñada para usarse como GUI (interfaz gráfica de usuario) para el control de los robots móviles SDV del laboratorio *LabFabEx*.

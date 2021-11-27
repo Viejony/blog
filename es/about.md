@@ -3,7 +3,12 @@ title: Sobre el Autor
 layout: page
 lang: es
 lang-ref: about
+sidebar-link: True
+index: 4
 ---
+
+{% include centered-image.html url="profile.png" size="20" %}
+<br>
 
 Soy ingeniero mecatrónico de nacionalidad colombiana, me apasiona el mundo de la tecnología, en especial la robótica y las disciplinas relacionadas como la electrónica y la programación.
 
