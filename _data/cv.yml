@@ -211,7 +211,7 @@ es:
         - title: SDV-Map-Viewer
           localpost: True
           link: "2021/08/04/sdv-map-viewer"
-          tagline: "Aplicación Web de página única desarrolla para ser usada con 
+          tagline: "Aplicación Web de página única desarrollada para ser usada con 
           múltiples robots móviles basados en ROS, como parte de los paquetes de
           software de la plataforma PRIA. Construida en la plataforma Angular."
 

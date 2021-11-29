@@ -5,7 +5,7 @@
 <div class="carousel__holder">
     <div class="carousel">
         {% for item in images_array %}
-          <input class="carousel__activator" type="radio" name="carousel" id="{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
+          <input class="carousel__activator" type="radio" name="carousel_{{include.id}}" id="{{include.id}}_{{ letters[forloop.index0] }}" {% if forloop.first %}checked="checked"{% endif %} />
         {% endfor %}
         {% for item in images_array %}
           {% if forloop.index == forloop.length %}
@@ -21,8 +21,8 @@
           {% endif %}
           {% assign prevletter = letters[previndex] %}
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="{{ prevletter }}"></label>
-              <label class="carousel__control carousel__control--forward" for="{{ nextletter }}"></label>
+              <label class="carousel__control carousel__control--backward" for="{{include.id}}_{{ prevletter }}"></label>
+              <label class="carousel__control carousel__control--forward forward_{{include.id}}" for="{{include.id}}_{{ nextletter }}"></label>
           </div>
         {% endfor %}
         <div class="carousel__track">
@@ -34,7 +34,7 @@
         </div>
         <div class="carousel__indicators">
             {% for item in images_array %}
-              <label class="carousel__indicator" for="{{ letters[forloop.index0] }}"></label>
+              <label class="carousel__indicator" for="{{include.id}}_{{ letters[forloop.index0] }}"></label>
             {% endfor %}
         </div>
     </div>
@@ -80,8 +80,9 @@
 {% endfor %}
 
 .carousel__control {
+  /* 
   height: 30px;
-  width: 30px;
+  width: 49px;
   margin-top: -15px;
   top: 50%;
   position: absolute;
@@ -90,23 +91,48 @@
   border-width: 5px 5px 0 0;
   border-style: solid;
   border-color: #797979;
-  opacity: 0.35;
-  outline: 0;
+  outline: 0; 
+  opacity: 0.8;
   z-index: 3;
   transition : .3s ease;
+  */
+
+  
+  /* 
+  opacity: 0.8;
+  z-index: 3;
+  transition : .3s ease;
+  background: url('{{site.baseurl}}/assets/icons/carousel_arrow.svg'); 
+  */
+
+
+  background: url('{{site.baseurl}}/assets/icons/carousel_arrow.svg') no-repeat top left;
+  background-size: contain;
+  cursor: pointer;
+  display: block;
+  height: 48px;
+  width: 30px;
+  top: 50%;
+  margin-top: -15px;
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  opacity: 0.4;
+  outline: 0; 
+  z-index: 3;
 }
 .carousel__control:hover {
   opacity: 1;
 }
 .carousel__control--backward {
   left: 20px;
-  -webkit-transform: rotate(-135deg);
-          transform: rotate(-135deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 .carousel__control--forward {
   right: 20px;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .carousel__indicators {
   position: absolute;
@@ -119,10 +145,6 @@
   display: inline-block;
   z-index: 2;
   margin: 0 2.5px 0 2.5px;
-  /* height: 20px;
-  width: 20px;
-  border-radius: 10%;
-  opacity: 0.35; */
   opacity: 0.35;
   border:1px solid rgb(255, 255, 255);    
   height:15px;
@@ -216,10 +238,12 @@
   }
   {% if include.duration %}
   setInterval(function(){
-    var j=0;
-    var elements = document.querySelectorAll('.carousel__control--forward');
-    for(i=(elements.length - 1);i>-1;i--) {
-      if(isVisible(elements[i])) j=i;
+    let j = 0;
+    let elements = document.querySelectorAll('.forward_{{include.id}}');
+    for(i = (elements.length - 1); i > -1; i--) {
+      if(isVisible(elements[i])){
+        j=i;
+      }
     }
     elements[j].click();
   },{{ include.duration }}000);

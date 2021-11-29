@@ -9,15 +9,15 @@
     </div>
 
     <nav class="sidebar-nav">
-      {% assign pages_list = site.pages | where:"lang", page.lang %}
+      {% assign pages_list = site.pages | where:"lang", page.lang | where:"sidebar-link", true %}
       {% assign pages_list = pages_list | sort:"index" %}
       {% for node in pages_list %}
       {% if node.title != null %}
-          {% if node.sidebar_link == True %}
+
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ site.baseurl }}{{ node.url }}">
               {{ node.title }}
             </a>
-          {% endif %}
+
         {% endif %}
       {% endfor %}
     </nav>
