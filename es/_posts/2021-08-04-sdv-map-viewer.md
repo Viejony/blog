@@ -53,6 +53,7 @@ La aplicación web propuesta busca cumplir con los siguientes objetivos:
 
 Se propone una aplicación Web de una sola página (*Single Web Aplication*), dado que esta puede cumplir con los objetivos buscados y además:
 - No requiere de instalación por parte del usuario.
+- No requiere de recargar la página al hacer una tarea.
 - Basto material y documentación para el desarrollo de este tipo de soluciones.
 - Cualquier navegador Web moderno que soporte Javascript puede ejecutarla.
 - Disponibilidad 24/7.
