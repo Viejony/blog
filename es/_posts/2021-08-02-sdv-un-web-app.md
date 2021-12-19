@@ -34,7 +34,7 @@ La aplicación web creada consta de un mapa del laboratorio y paneles laterales 
 
 Además, se incluyen botones para la manipulación de la imagen del mapa, como *Zoom In*, *Zoom Out*, y botones de desplazamiento.
 
-Cuando un robot SDV se conecta a la red, aparece como en la aplicación como una flecha de color sobre el mapa. Al hacer click en el mapa, la nueva posición se envía de forma inmediata el robot. Si existe una ruta que permita al robot llegar a tal punto, el robot empieza a moverse. Para añadir seguridad a la operación, se incorporó en la barra superior un botón de parada de emergencia, la cual detiene al robot de forma inmediata.
+Cuando un robot SDV se conecta a la red, aparece en la aplicación como una flecha de color sobre el mapa. Al hacer click en el mapa, la nueva posición se envía de forma inmediata el robot. Si existe una ruta que permita al robot llegar a tal punto, el robot empieza a moverse. Para añadir seguridad a la operación, se incorporó en la barra superior un botón de parada de emergencia, la cual detiene al robot de forma inmediata.
 
 Otras funciones añadidas a la aplicación web son:
 
