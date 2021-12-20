@@ -49,7 +49,7 @@ La aplicación utiliza distintas herramientas de software libre:
 - *nav2djs*: biblioteca escrita en *Javascript* para el trazado de mapas de robots móviles que funcionan con *ROS*. Utilizado en el lado del cliente.
 - *XAMMP*: Paquete de software con aplicaciones útiles para el montaje de servidores web. Se utiliza la base de datos *mySQL* para la gestión de usuarios, el servidor *PHP* para añadir características de seguridad y *Apache* para el servicio web.
 
-El proyecto también tiene una versión *vanilla*, la cual remueve las características de seguridad e identificación de usuarios, permitiendo ejecutar la aplicación desde un sencillo servicio de *Apache* o con un servicio montado en *Nodejs* y *Expres.js*. El código fuente es de acceso libre y se encuentra hospedado en *Github*.
+El proyecto también tiene una versión *vanilla*, la cual remueve las características de seguridad e identificación de usuarios, permitiendo ejecutar la aplicación desde un sencillo servicio de *Apache* o con un servicio montado en *Nodejs* y *Express.js*. El código fuente es de acceso libre y se encuentra hospedado en *Github*.
 
 ## Ejemplo de uso
 
