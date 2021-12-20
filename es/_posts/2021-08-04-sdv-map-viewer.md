@@ -28,6 +28,7 @@ La operación de los robots *SDVUN* se puede llevar a cabo por medio de alguna d
 - *PRIA*, servicio instalado en el robot, que recibe comandos de posicionamiento desde una base de datos remota en tiempo real.
 
 Para determinar las ventajas de una alternativa frente a la otra, se evaluan distintas características: algunas de ellas surgen por la necesidad de teleoperar los robots desde sitios distantes al laboratorio (dadas las restricciones de acceso, producto de la pandemia). En la siguiente lista se muestran los aspectos a evaluar:
+
 - Operación remota: capacidad de la aplicación de enviar comandos de operación al robot, sin importar si el usuario se encuentra conectado a la red local del laboratorio.
 - Feedback (retroalimentación): capacidad de la aplicación para mostrar los datos de navegación y datos de diagnóstico los robots móviles.
 - Multi plataforma: capacidad de la aplicación de poderse ejecutar en distintos dispositivos con distintos sistemas operativos.
@@ -39,7 +40,7 @@ A continuación se muestra una comparación de estas alternativas:
 |------------------|----------|------|------|
 | Operación remota | NO       | NO   | SI   |
 | Feedback         | NO       | SI   | NO   |
-| Muti plataforma  | SI       | NO   | SI   |
+| Multi plataforma | SI       | NO   | SI   |
 | Rutas            | NO       | SI   | NO   |
 
 Ninguna de las alternativas cumple con todos los aspectos valorados. Es por ello que se inició el desarrollo de la aplicación *SDV-Map-Viewer*.
