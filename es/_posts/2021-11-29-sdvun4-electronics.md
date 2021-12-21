@@ -31,7 +31,7 @@ La forma como se llevan a cabo tales movimientos es la siguiente: cada rueda es 
 centered-image.html 
 url="20211129_172400_11.svg" 
 size="90" 
-caption="Movimientos que puede realizar un robot con las ruedas mecanum"
+caption="Movimientos que puede realizar un robot con las ruedas mecanum."
 %}
 
 ## Diagrama general
@@ -41,7 +41,7 @@ La siguiente imagen muestra el diagrama general del *SDVUN4*. Los bloques muestr
 centered-image.html 
 url="20211129_172400_03.webp" 
 size="90" 
-caption="Esquema de conexiones de los distintos circuitos del SDVUN4" 
+caption="Esquema de conexiones de los distintos circuitos del SDVUN4." 
 %}
 
 La mayor parte de los componentes se comunica al microcontrolador principal. Este a su vez se conecta via USB al computador a bordo, una tarjeta *Nvidia Jetson TX2*. Al computador a bordo también se conecta una cámara estereoscópica de la marca *ZED*.
@@ -62,12 +62,12 @@ En la siguiente figura se observa el diseño preliminar de la caja, con los dist
 centered-image.html 
 url="20211129_172400_04.webp" 
 size="90" 
-caption="Concepto de la caja de componentes electrónicos para el robot SDVUN4"
+caption="Concepto de la caja de componentes electrónicos para el robot SDVUN4."
 %}
 
 ## Ensamblaje final
 
-En el siguiente album de imágenes se observa el montaje final de la caja de electrónica, con los distintos componentes ya montados. Se puede observar que algunas de las láminas son de material acrílico con un patrón hexagonal para reducir el peso que añaden a la estructura. Las tres baterías se conectan a un monitor de tensiones cada una, los cuales indican si las baterías se encuentran en buen estado. Estos monitores, al estar sometidos a kas fuerzas que producen la conexión y la desconexión constante de las baterías, se montan directamente a la lámina de aluminio. El resto de componentes electrónicos se encuentra fijado a elementos plásticos no conductivos.
+En el siguiente album de imágenes se observa el montaje final de la caja de electrónica, con los distintos componentes ya montados. Se puede observar que algunas de las láminas son de material acrílico con un patrón hexagonal para reducir el peso que añaden a la estructura. Las tres baterías se conectan a un monitor de tensiones cada una, los cuales indican si las baterías se encuentran en buen estado. Estos monitores, al estar sometidos a las fuerzas que producen la conexión y la desconexión constante de las baterías, se montan directamente a la lámina de aluminio. El resto de componentes electrónicos se encuentra fijado a elementos plásticos no conductivos.
 
 {% 
 include image-carousel.html 
@@ -84,5 +84,5 @@ La siguiente figura muestra la parte frontal del chasis del robot SDVUN4 con la 
 centered-image.html 
 url="20211129_172400_10.webp" 
 size="70" 
-caption="Vista frontal de la caja ensamblada y montada en el chasis del SDVUN4"
+caption="Vista frontal de la caja ensamblada y montada en el chasis del SDVUN4."
 %}
