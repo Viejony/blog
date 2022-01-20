@@ -123,7 +123,7 @@ en:
 es:
   sidebar:
       education: False
-      phones: False
+      phones: True
 
       name: Jhonyfer Angarita Moreno
       tagline: Ingeniero Mecatrónico
