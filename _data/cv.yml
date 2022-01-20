@@ -96,7 +96,7 @@ en:
         - category: Languages
           tagline: Python, C++, Java, Javascript, Typescript
         - category: Platforms, Suites and IDEs
-          tagline: Git, ROS, Nodejs, Angular, Micorsoft Office
+          tagline: Git, ROS, Nodejs, Angular, Microsoft Office
         - category: CAD Programs
           tagline: Autodesk Inventor, AutoCAD
 
@@ -215,6 +215,13 @@ es:
           múltiples robots móviles basados en ROS, como parte de los paquetes de
           software de la plataforma PRIA. Construida en la plataforma Angular."
 
+        - title: UDP
+          localpost: False
+          tagline: "Aplicación móvil para dispositivos Android que permite el 
+          envio de mensajes UDP. La interfáz gráfica es configurable, permitiendo
+          asignar funciones a los botones. Pensada para el control remoto de 
+          vehículos y brazos robóticos."
+
   references:
     - name: "Leidy Johana Angarita Moreno"
       job: Contadora Pública
@@ -237,9 +244,9 @@ es:
       softwareset:
         - category: Lenguajes de programación
           tagline: Python, C++, Java, Javascript, Typescript
-        - category: Platforms, Suites and IDEs
-          tagline: Git, ROS, Nodejs, Angular, Micorsoft Office
-        - category: CAD Programs
+        - category: Platformas, Suites y IDEs
+          tagline: Git, ROS, Nodejs, Angular, Microsoft Office, Android Studio
+        - category: CAD
           tagline: Autodesk Inventor, AutoCAD
 
       operativesystemsset:
@@ -248,6 +255,8 @@ es:
 
       toolset:
         - name: Python
+          level: 90%
+        - name: Java
           level: 90%
         - name: Javascript & Typescript
           level: 80%
