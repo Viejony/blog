@@ -202,7 +202,7 @@ es:
         - title: phantomx_pincher
           localpost: True
           link: "2021/08/03/phatomx"
-          tagline: "Un conjunto de paquetes para la pltaforma de robótica ROS, 
+          tagline: "Un conjunto de paquetes para la plataforma de robótica ROS, 
           usados en Gazebo (software de simulación de robots), pensados para 
           emular un robot manipulador PhantomX Pincher. Puede ser 
           monitorizado usando MATLAB y puede ser controlado por medio de una 
@@ -211,9 +211,10 @@ es:
         - title: SDV-Map-Viewer
           localpost: True
           link: "2021/08/04/sdv-map-viewer"
-          tagline: "Aplicación Web de página única desarrollada para ser usada con 
-          múltiples robots móviles basados en ROS, como parte de los paquetes de
-          software de la plataforma PRIA. Construida en la plataforma Angular."
+          tagline: "Aplicación Web de página única (Single Web Aplication) 
+          desarrollada para ser usada con múltiples robots móviles basados en 
+          ROS, como parte de los paquetes de software de la plataforma PRIA. 
+          Construida en la plataforma Angular."
 
         - title: UDP
           localpost: False
