@@ -85,7 +85,7 @@ en:
 
         - title: SDV-Map-Viewer
           link: "2021/08/04/sdv-map-viewer.html"
-          tagline: "Single Web Aplication designed to be used with multiple mobile 
+          tagline: "Single Web Application designed to be used with multiple mobile 
           robots that uses ROS in ExFabLab as a part of PRIA software packages. 
           Builded in Angular Framework"
 
@@ -94,19 +94,24 @@ en:
 
       softwareset:
         - category: Languages
-          tagline: Python, C++, Java, Javascript, Typescript
+          tagline: Python, C++, Java, Kotlin, Javascript, Typescript
         - category: Platforms, Suites and IDEs
-          tagline: Git, ROS, Nodejs, Angular, Microsoft Office
+          tagline: Git, ROS, Nodejs, Angular, Android Studio, Microsoft Office
         - category: CAD Programs
           tagline: Autodesk Inventor, AutoCAD
 
       operativesystemsset:
         - name: Windows (advanced user)
         - name: Linux (advanced user)
+        - name: MacOs (beginner user)
 
       toolset:
         - name: Python
           level: 90%
+        - name: Java
+          level: 90%
+        - name: Kotlin
+          level: 75%
         - name: Javascript & Typescript
           level: 80%
         - name: Angular
@@ -244,21 +249,24 @@ es:
 
       softwareset:
         - category: Lenguajes de programación
-          tagline: Python, C++, Java, Javascript, Typescript
+          tagline: Python, C++, Java, Kotlin, Javascript, Typescript
         - category: Platformas, Suites y IDEs
           tagline: Git, ROS, Nodejs, Angular, Microsoft Office, Android Studio
         - category: CAD
           tagline: Autodesk Inventor, AutoCAD
 
       operativesystemsset:
-        - name: Windows (advanced user)
-        - name: Linux (advanced user)
+        - name: Windows (usuario avanzado)
+        - name: Linux (usuario avanzado)
+        - name: MacOS (usuario principiante)
 
       toolset:
         - name: Python
           level: 90%
         - name: Java
           level: 90%
+        - name: Kotlin
+          level: 75%
         - name: Javascript & Typescript
           level: 80%
         - name: Angular
