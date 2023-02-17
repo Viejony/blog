@@ -163,10 +163,10 @@ es:
   career-profile:
       title: Perfil
       summary: |
-        Ingeniero mecatrónico  con conocimientos para el diseño, construcción y 
+        Ingeniero mecatrónico con habilidades para el diseño, construcción y 
         ejecución de soluciones de ingeniería que requieran de un alto nivel de 
-        integración. Conocimientos en servicios en línea, industria 4.0, uso de 
-        herramientas libres (FOSS), electrónica, manufactura y programación.
+        integración. Conocimientos en desarrollo de software, servicios en línea, 
+        industria 4.0, uso de herramientas libres (FOSS), electrónica, y manufactura.
         Alta capacidad de adaptabilidad, curiosidad, creatividad y dinamismo.
 
   education:
@@ -180,6 +180,12 @@ es:
             - (2020-2) Trabajo de grado: Diseño de la parte electrónica del robot móvil SDVUN4.
 
   experiences:
+      - role: Desarrollador móvil
+        time: 2022-2 Actualidad
+        company: Widetech Group S.A.
+        details: |
+          Desarrollo y mantenimiento de distintas aplicaciones móviles de la 
+          empresa para las plataformas Android y iOS 
       - role: Asistentente de Investigación
         time: 2020-1 2021-1
         company: Universidad Nacional de Colombia. Grupo DIMA-UN
@@ -249,24 +255,24 @@ es:
 
       softwareset:
         - category: Lenguajes de programación
-          tagline: Python, C++, Java, Kotlin, Javascript, Typescript
+          tagline: Java, Kotlin, Swift, Python, C++, Javascript, Typescript
         - category: Platformas, Suites y IDEs
-          tagline: Git, ROS, Nodejs, Angular, Microsoft Office, Android Studio
-        - category: CAD
-          tagline: Autodesk Inventor, AutoCAD
+          tagline: Git, Android Studio, XCode, ROS, Nodejs, Angular, Microsoft Office
 
       operativesystemsset:
         - name: Windows (usuario avanzado)
         - name: Linux (usuario avanzado)
-        - name: MacOS (usuario principiante)
+        - name: MacOS (usuario intermedio)
 
       toolset:
+        - name: Kotlin
+          level: 80%
         - name: Python
           level: 90%
         - name: Java
           level: 90%
-        - name: Kotlin
-          level: 75%
+        - name: Swift
+          level: 70%
         - name: Javascript & Typescript
           level: 80%
         - name: Angular
@@ -275,5 +281,3 @@ es:
           level: 60%
         - name: C and C++
           level: 80%
-        - name: Autodesk Inventor
-          level: 75%
