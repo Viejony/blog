@@ -16,10 +16,14 @@ Also, these Jekyll Themes are used in the blog part:
 ## Instructions
 - [Install Ruby](https://www.ruby-lang.org/) in your machine
 - [Install Jekyll](https://jekyllrb.com/docs/)
-- Download this repository and add a Gemfile from a new Jekyll project
+- Download this repository and add a Gemfile from a new Jekyll project (if not exists)
 - Edit the information
     - CV: your CV data comes in *data/cv.yml*. This file contains the two language versions.
     - Posts: in *en* and *es* folders.
+- Install the required gems using the Gemfile:
+```
+bundle install
+```
 - See the blog localy
 ```
 jekyll server

@@ -4,7 +4,6 @@ _site
 .jekyll-metadata
 .vscode/
 vendor
-Gemfile
 Gemfile.lock
 Gemfile.back
 notes.txt
