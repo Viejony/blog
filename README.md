@@ -21,12 +21,16 @@ Also, these Jekyll Themes are used in the blog part:
     - CV: your CV data comes in *data/cv.yml*. This file contains the two language versions.
     - Posts: in *en* and *es* folders.
 - Install the required gems using the Gemfile:
-```
+```bash
 bundle install
 ```
 - See the blog localy
-```
+```bash
+# Run a local server to see the generated web pages
 jekyll server
+
+# Sometimes you need to prepend "bundle exec"to fix errors, specially on Windows environments
+bundle exec jekyll server
 ```
 - Push to Github
 

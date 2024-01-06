@@ -128,7 +128,7 @@ en:
 es:
   sidebar:
       education: False
-      phones: True
+      phones: False
 
       name: Jhonyfer Angarita Moreno
       tagline: Ingeniero Mecatrónico
@@ -136,7 +136,6 @@ es:
       birth_country: Colombia
 
       email: jhonyferangarita@gmail.com
-      phone: +57 302 3614420
       linkedin: jhonyfer-angarita-moreno
       github: Viejony
       gitlab: Viejony
@@ -207,7 +206,7 @@ es:
           tagline: "Una aplicación web sencilla pensada para el control de un único 
           robot móvil dentro del LabFabEx por medio de la red local, usando el 
           software Rosbridge como servidor en el robot, mySQL y Apache para el 
-          Webhosting y gestión de ususarios y bibliotecas de Robot Web Tools 
+          Webhosting y gestión de usuarios y bibliotecas de Robot Web Tools 
           para la interfaz del lado del cliente."
 
         - title: phantomx_pincher
