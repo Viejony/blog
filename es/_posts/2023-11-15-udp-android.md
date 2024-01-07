@@ -119,7 +119,7 @@ en el laboratorio *LabFabEx* en la *Universidad Nacional de Colombia*. En el
 siguiente video puede observarse una prueba de teleoperación manual del robot 
 *SDV4* con esta app y el modo *gamepad.*
 
-{% include youtube-player.html id="cjlaIxf0qbI"%}
+{% include youtube-player.html id="PILThj70-FU"%}
 
 
 ## Consigue la app
