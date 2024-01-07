@@ -41,7 +41,8 @@ robot.
 centered-image.html 
 url="20231115_122900_02.webp" 
 size="90" 
-caption="Interfáz con botones tipo Gamepad" 
+caption="Interfáz con botones tipo Gamepad"
+show_shadow=true
 %}
 
 El menú de configuración del gamepad permite ajustar el comportamiento de 
@@ -52,7 +53,8 @@ frecuencia con la que se envía.
 centered-image.html 
 url="20231115_122900_03.webp" 
 size="40" 
-caption="Menu de configuración del botón 1 del Gamepad" 
+caption="Menu de configuración del botón 1 del Gamepad"
+show_shadow=true
 %}
 
 Con el avance del desarrollo de la app, se agregaron más formas de interacción: 
@@ -62,7 +64,8 @@ se agregó una vista tipo terminal en la se envía y se recibe texto.
 centered-image.html 
 url="20231115_122900_04.webp" 
 size="40" 
-caption="Vista del modo terminal" 
+caption="Vista del modo terminal"
+show_shadow=true
 %}
 
 Otra vista agregada es la de *botones programables*. Una lista vertical permite
@@ -75,7 +78,8 @@ de veces que se envía dicho comando.
 centered-image.html 
 url="20231115_122900_05.webp" 
 size="40" 
-caption="Vista del modo Botones programables" 
+caption="Vista del modo Botones programables"
+show_shadow=true
 %}
 
 Finalmente, se agregó un vista con contenidos de ayuda. En esta se encuentran 
@@ -86,7 +90,8 @@ protocolo *UDP*, los modos de visualización de la app, etc.
 centered-image.html 
 url="20231115_122900_06.webp" 
 size="40" 
-caption="Vista de los contenidos de ayuda de la app." 
+caption="Vista de los contenidos de ayuda de la app."
+show_shadow=true
 %}
 
 
@@ -102,7 +107,8 @@ con pantallas tipo OLED.
 centered-image.html 
 url="20231115_122900_07.webp" 
 size="40" 
-caption="Vista de configuración del tema de la app." 
+caption="Vista de configuración del tema de la app."
+show_shadow=true
 %}
 
 

@@ -19,6 +19,9 @@ youtubeChannel:
 twitterProfile:
   en: "Twitter Profile"
   es: "Perfil en Twitter"
+x-twitterProfile:
+  en: "X Profile"
+  es: "Perfil en X"
 linkedinProfile:
   en: "Linkedin Profile"
   es: "Perfil en Linkedin"

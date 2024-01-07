@@ -16,7 +16,7 @@ en:
       linkedin: jhonyfer-angarita-moreno
       github: Viejony
       gitlab: Viejony
-      twitter: '@viejony'
+      x-twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
       website: viejony.github.io/blog/en/
 
@@ -27,9 +27,9 @@ en:
           level: Native
 
       interests:
-        - item: Robotics
-          link:
         - item: Software Development
+          link:
+        - item: Robotics
           link:
         - item: Automatization
           link:
@@ -139,7 +139,7 @@ es:
       linkedin: jhonyfer-angarita-moreno
       github: Viejony
       gitlab: Viejony
-      twitter: '@viejony'
+      x-twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
       website: viejony.github.io/blog/es/
 
@@ -150,9 +150,9 @@ es:
           level: Nativo
 
       interests:
-        - item: Robótica
-          link:
         - item: Desarrollo de software
+          link:
+        - item: Robótica
           link:
         - item: Automatización
           link:

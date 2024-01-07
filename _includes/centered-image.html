@@ -1,9 +1,13 @@
 <div style="position: relative;">
-    <img src="{{site.baseurl}}/assets/images/{{ include.url }}" style="margin: auto; width: {{ include.size }}%;">
+    <img src="{{site.baseurl}}/assets/images/{{ include.url }}" style="
+    margin: auto; width: {{ include.size }}%; 
+    {% if include.show_border %} border:1px solid #a6a6a6; padding:0px; {% endif %}
+    {% if include.show_shadow %} box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); {% endif %}
+    ">
 </div>
 
 {% if include.caption %}
-<div style="text-align: center;">
+<div style="text-align: center; {% if include.show_shadow %} margin-top: 10px; {% endif %}">
     <p class="caption">{{include.caption}}</p>
 </div>
 {% endif %}
