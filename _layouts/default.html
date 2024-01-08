@@ -2,8 +2,9 @@
 <html lang="{{ page.lang }}">
 
   {% include head.html %}
+  {% include sidebar-scripts.html %}
 
-  <body class="theme-base-0d">
+  <body class="theme-base-0d" onload="startAnimation()">
     {% include sidebar.html %}
     <div class="content container">
       {% if page.pic-header %}

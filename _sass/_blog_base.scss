@@ -530,11 +530,51 @@ html {
    * out above content in mobile and later moves to the side with wider viewports.
    */
 
+.sidebar-vanta {
+    color           : rgba(255, 255, 255, .5);
+    background-color: #00000000;
+    z-index: 0;
+}
+
+@media (min-width: 48em) {
+    .sidebar-vanta {
+        position  : fixed;
+        top       : 0;
+        left      : 0;
+        bottom    : 0;
+        width     : 18rem;
+        z-index: 0;
+    }
+}
+
+.sidebar-back {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 0;
+}
+
+@media (min-width: 48em) {
+    .sidebar-back {
+        position  : fixed;
+        top       : 0;
+        left      : 0;
+        bottom    : 0;
+        width     : 18rem;
+        z-index: 0;
+    }
+}
+
 .sidebar {
     text-align      : center;
     padding         : 2rem 1rem;
     color           : rgba(255, 255, 255, .5);
     background-color: #202020;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 @media (min-width: 48em) {
@@ -545,6 +585,7 @@ html {
         bottom    : 0;
         width     : 18rem;
         text-align: left;
+        z-index: 1;
     }
 }
 
@@ -594,7 +635,6 @@ a.sidebar-nav-item:focus {
         left    : 1rem;
     }
 }
-
 
 /* Container
    *
@@ -711,6 +751,10 @@ a.sidebar-nav-item:focus {
 
 /* Blue */
 .theme-base-0d .sidebar {
+    background-color: #6a9fb52d;
+}
+
+.theme-base-0d .sidebar-back {
     background-color: #6a9fb5;
 }
 
