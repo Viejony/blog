@@ -121,6 +121,12 @@ of the *SDV4* robot with this app in *gamepad* mode.
 
 {% include youtube-player.html id="PILThj70-FU"%}
 
+This other video contains a tele operation demo with a virtual robot from ROS
+(TurtleSim). Shows in detail how the app is configured, how to check if the app
+send messages to the target computer and a movement test.
+
+{% include youtube-player.html id="obgqgiwL60c"%}
+
 
 ## Get the app
 This app is free and can be downloaded from PlayStore.

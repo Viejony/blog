@@ -121,6 +121,12 @@ siguiente video puede observarse una prueba de teleoperación manual del robot
 
 {% include youtube-player.html id="PILThj70-FU"%}
 
+Este otro video contiene una prueba de teleoperación con un robot virtual de ROS
+(TurtleSim). Muestra detalladamente como se configura la app, como se prueba si
+la app envía mensajes al computador destino y una prueba de movimiento.
+
+{% include youtube-player.html id="obgqgiwL60c"%}
+
 
 ## Consigue la app
 Esta aplicación es gratuita y puede descargarse desde la PlayStore.
