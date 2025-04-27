@@ -30,3 +30,6 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: localhost
 safe: false
+
+plugins:
+  - jekyll-watch

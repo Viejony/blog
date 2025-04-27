@@ -15,8 +15,6 @@ en:
       email: jhonyferangarita@gmail.com
       linkedin: jhonyfer-angarita-moreno
       github: Viejony
-      gitlab: Viejony
-      x-twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
       website: viejony.github.io/blog/en/
 
@@ -55,6 +53,12 @@ en:
             - (2020-2) Grade project: Design of electronics of a mobile robot chasis (SDV).
 
   experiences:
+      - role: Mobile developer
+        time: 2022-1 now
+        company: Widetech Group S.A.S.
+        details: |
+          Development and maintenance of various mobile applications for the 
+          company for Android and iOS platforms
       - role: Research Assistant
         time: 2020-1 2021-1
         company: National University of Colombia - DIMA-UN
@@ -89,6 +93,20 @@ en:
           robots that uses ROS in ExFabLab as a part of PRIA software packages. 
           Builded in Angular Framework"
 
+        - title: UDP
+          localpost: True
+          link: "2023/11/15/udp-android"
+          tagline: "Mobile application for Android devices that allows sending 
+          UDP messages. The graphical interface is configurable, allowing you 
+          to assign functions to buttons. Designed for remote control of 
+          vehicles and robotic arms.."
+
+        - title: Sudoku Solver
+          localpost: False
+          tagline: "Mobile app that allows you to scan printed Sudoku puzzles 
+          using local AI. The app is divided into two versions, free and pro, 
+          with most of the code shared between the two."
+
   skills:
       title: Skills &amp; Proficiency
 
@@ -103,15 +121,17 @@ en:
       operativesystemsset:
         - name: Windows (advanced user)
         - name: Linux (advanced user)
-        - name: MacOs (beginner user)
+        - name: MacOs (advanced user)
 
       toolset:
-        - name: Python
-          level: 90%
         - name: Java
           level: 90%
         - name: Kotlin
-          level: 75%
+          level: 90%
+        - name: Python
+          level: 80%
+        - name: Swift
+          level: 70%
         - name: Javascript & Typescript
           level: 80%
         - name: Angular
@@ -119,9 +139,7 @@ en:
         - name: HTML5 & CSS
           level: 60%
         - name: C and C++
-          level: 80%
-        - name: Autodesk Inventor
-          level: 75%
+          level: 70%
 
 ################################################################################
 # Versión en Español
@@ -138,8 +156,6 @@ es:
       email: jhonyferangarita@gmail.com
       linkedin: jhonyfer-angarita-moreno
       github: Viejony
-      gitlab: Viejony
-      x-twitter: '@viejony'
       youtube: 'UC94gA_n8h_ozkjNGkLDpiAw'
       website: viejony.github.io/blog/es/
 
@@ -227,11 +243,18 @@ es:
           Construida en la plataforma Angular."
 
         - title: UDP
-          localpost: False
+          localpost: True
+          link: "2023/11/15/udp-android"
           tagline: "Aplicación móvil para dispositivos Android que permite el 
           envio de mensajes UDP. La interfáz gráfica es configurable, permitiendo
           asignar funciones a los botones. Pensada para el control remoto de 
           vehículos y brazos robóticos."
+
+        - title: Sudoku Solver
+          localpost: False
+          tagline: "Aplicación móvil que permite escanear sudokus impresos
+          por medio de IA local. La aplicación se bifurca en dos versiones, free
+          y pro, compartiendo entre las dos la mayor parte de su código."
 
   references:
     - name: "Leidy Johana Angarita Moreno"
@@ -244,10 +267,6 @@ es:
       email: dftossem@gmail.com
       phone: +57 300 4212645
       location: Bogotá D.C.
-    - name: "Ernesto Cordoba Nieto"
-      job: Ingeniero Mecánico
-      email: ecordoban@unal.edu.co
-      location: Bogotá D.C.
 
   skills:
       title: Habilidades y Competencias
@@ -256,20 +275,20 @@ es:
         - category: Lenguajes de programación
           tagline: Java, Kotlin, Swift, Python, C++, Javascript, Typescript
         - category: Platformas, Suites y IDEs
-          tagline: Git, Android Studio, XCode, ROS, Nodejs, Angular, Microsoft Office
+          tagline: Git, Android Studio, XCode, ROS, Nodejs, Angular.
 
       operativesystemsset:
         - name: Windows (usuario avanzado)
         - name: Linux (usuario avanzado)
-        - name: MacOS (usuario intermedio)
+        - name: MacOS (usuario avanzado)
 
-      toolset:
-        - name: Kotlin
-          level: 80%
-        - name: Python
-          level: 90%
+      toolset:        
         - name: Java
           level: 90%
+        - name: Kotlin
+          level: 90%
+        - name: Python
+          level: 80%
         - name: Swift
           level: 70%
         - name: Javascript & Typescript
@@ -279,4 +298,4 @@ es:
         - name: HTML5 & CSS
           level: 60%
         - name: C and C++
-          level: 80%
+          level: 70%
